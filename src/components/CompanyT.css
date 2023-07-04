@@ -1,0 +1,28 @@
+.companyt__in {
+    /* background-color: white;  */
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    padding: 0px 7px; 
+    /* color: black; */
+    
+
+}
+/* .companyt {
+    background-color: white;
+    
+} */
+
+/* .companyt>hr{
+    margin-left: -10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 108.5%;
+    height: 0.5px;
+    border: none;
+} */
+
+.companyt__in:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}

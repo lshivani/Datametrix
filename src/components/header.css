@@ -1,0 +1,89 @@
+.header {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 60px;
+}
+
+
+
+.header__first> img {
+    width: 160px;
+    height: 50px;
+    display: flex;
+    object-fit:fill;
+    padding-left: -100px;
+    margin-top: 30px;
+  
+}
+.header__first {
+    padding-left: -200px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.header__eight >button {
+    width: 15vw;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(55, 55, 249);
+    color: white;
+    cursor: pointer;
+    
+    
+ }
+/* .header__eight:hover{
+   background-color: black;
+   
+}  */
+
+.header__second {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.header__second > .MuiSvgIcon-root {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.header__third {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.header__third > .MuiSvgIcon-root {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+
+.header__seven:hover {
+    color: blue;
+    cursor: pointer;
+    
+}
+
+.header__fourth{
+    cursor: pointer;
+}
+
+.header__fourth:hover {
+    cursor: pointer;
+
+}
+.header__fifth{
+    cursor: pointer;
+}

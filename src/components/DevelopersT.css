@@ -1,0 +1,20 @@
+.developerst__in {
+    /* background-color: white;  */
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    padding: 0px 7px; 
+    /* color: black; */
+}
+
+.developerst__in:hover{
+  background-color: aliceblue;
+  cursor: pointer;
+}
+/* .developerst>hr{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+
+}  */

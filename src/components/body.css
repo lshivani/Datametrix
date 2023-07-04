@@ -1,0 +1,164 @@
+.body-container {
+    display: flex;
+    
+  }
+  
+  .column {
+    flex: 1;
+    margin-left: 250px;
+  }
+  
+   .column:last-child {
+    margin-right: 0;
+  }
+ 
+  .column1 {
+    flex: 1;
+    margin-left: 170px;
+    /* background-color: bisque; */
+
+  }
+  
+   .column1:last-child {
+    margin-right: 0;
+  }
+ 
+  .column2 {
+    flex: 1;
+    margin-left: 50px;
+    /* background-color: bisque; */
+    
+  }
+  
+   .column2:last-child {
+    margin-right: 0;
+  }
+ 
+  /* Adjust the styles of the columns as needed */
+  .row{padding: 10px;}
+  
+  .custom-img {
+    width: 340px;
+    height: auto; /* The height will adjust automatically based on the image's aspect ratio */
+    max-width: 100%; /* Ensures the image doesn't exceed its original width */
+  }
+  .image-container {
+    position: relative;
+  }
+  
+  .image-text {
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    text-align: left;
+    font-size: small;
+    
+  }
+  .card {
+    box-shadow: white;
+    transition: 0.3s;
+    border-radius: 5px; 
+    background-color: white;
+    opacity: 0.8;
+    border-color: white;
+    width:60px;
+  }
+  .card:hover {
+    box-shadow: white;
+  }
+  .card-title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+  }
+  .card-img-top {
+    border-radius: 5px 5px 0 0;
+  }
+  .container img{
+    float: left;
+  }
+  .container p{
+    margin-left: 35px;
+    margin-top: 20px;
+  }
+  .container{
+    align-content: center;
+  
+  }
+  #button{
+    border-radius: 40px;
+    font-size: 20px;
+    width: 450px; 
+  }
+  .chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 80px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 225px;
+    background-color:white;
+  }
+  
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+  }
+  #click{
+    width: 250px;
+    font-size: 25px;
+    border-radius: 40px;
+  }
+  #btn{
+    border-radius: 30px;
+    color:white;
+    background-color: blue;
+    width: 180px;
+    height: 50px;
+    border-color: blue;
+  }
+  #btn1{
+    border-radius: 30px;
+    color:blue;
+    border-color: blue;
+    width: 180px;
+    height: 50px;
+
+  }
+  
+  .p2 {
+    cursor: pointer;
+    color: rgb(68, 68, 245);
+   
+  }
+  
+  .p2:hover {
+    text-decoration: underline; 
+  }
+  
+  .p2 i {
+    margin-left: 5px;
+  }
+  #d {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .8s ease-in-out;  
+     
+    }
+
+    #d:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+      box-shadow: whitesmoke;
+      /* transition: margin-top 10s ease; */
+     
+    }
+  
